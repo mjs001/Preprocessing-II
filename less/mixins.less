@@ -1,1 +1,16 @@
 // Mixins in here
+
+.button-styles(@color:white, @bg-color:royalblue, @width: 80%, @bdr-radius: 15px, @height: 40px, @border: none){
+    color: @color;
+    background: @bg-color;
+    width: @width;
+    border-radius: @bdr-radius;
+    height: @height;
+    border: @border;
+}
+
+.flex-row-center(){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
